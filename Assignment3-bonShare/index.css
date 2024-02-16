@@ -1,0 +1,593 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100dvh;
+}
+
+/* main section */
+main {
+  padding: 3em;
+  background-image: url(/Assets/Rectangle11.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+
+.affordable {
+  width: 25.4em;
+  align-self: flex-start;
+  padding-top: 2rem;
+}
+
+.affordable h1 {
+  width: 98%;
+  font-size: 2.8em;
+  font-weight: bolder;
+}
+
+.affordable p {
+  width: 94%;
+}
+
+.affordable img {
+  position: relative;
+  margin-top: 0.2rem;
+  z-index: 999;
+}
+
+.app img {
+  height: 32rem;
+  top: 10.5em;
+  left: 55.5em;
+}
+
+.roe {
+  top: 16%;
+  right: 9%;
+  position: absolute;
+  width: fit-content;
+}
+
+.two {
+  position: relative;
+  right: 21rem;
+  top: 4rem;
+}
+
+.three {
+  position: relative;
+  left: 19rem;
+  top: 1rem;
+}
+
+.four {
+  position: relative;
+  left: 2rem;
+  top: 6rem;
+}
+
+/* travel section */
+
+.travel {
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.travel .words {
+  width: 38%;
+  margin-left: -12rem;
+}
+
+.travel .image {
+  margin-left: 8rem;
+}
+
+.suv {
+  position: relative;
+  margin-top: 2.8rem;
+  margin-left: -2.8rem;
+  z-index: 999;
+}
+
+.line1 {
+  position: absolute;
+  top: 69%;
+  left: 16.2%;
+  background-color: aliceblue;
+}
+
+.travell {
+  margin-top: 8%;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 4rem;
+  background-color: #e3f5f4;
+}
+
+.smart {
+  width: 35%;
+  margin-left: 4rem;
+}
+
+.smart p {
+  margin-left: 7rem;
+  width: 90%;
+}
+
+.imageo {
+  margin-right: 9rem;
+}
+
+/* book a ride section */
+
+.ride {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 4rem 0;
+}
+
+.ride-flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 8rem;
+  margin-top: 2rem;
+}
+
+.dots {
+  position: relative;
+  right: -40rem;
+  top: -2rem;
+}
+
+/* footer */
+footer {
+  font-size: smaller;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 184px;
+  margin-top: 4rem;
+  bottom: 0;
+  background-color: rgb(244, 242, 242);
+  align-items: center;
+}
+
+footer img {
+  margin-left: 2em;
+}
+
+/* Media quaries */
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .hero-section {
+    justify-content: space-between;
+  }
+
+  .dots {
+    right: -24rem;
+  }
+
+  .ride-flex {
+    gap: 3rem;
+  }
+
+  .roe {
+    top: 18%;
+    right: 2%;
+    position: absolute;
+    width: fit-content;
+  }
+
+  .two {
+    position: relative;
+    right: 18rem;
+    top: 4rem;
+  }
+
+  .three {
+    position: relative;
+    left: 19rem;
+    top: 1rem;
+  }
+
+  .four {
+    position: relative;
+    left: 2rem;
+    top: 6rem;
+  }
+
+  .travel {
+    margin-top: 8%;
+
+    justify-content: space-between;
+
+    padding-bottom: 4rem;
+  }
+
+  .travel .words {
+    width: 38%;
+    margin-left: -12rem;
+  }
+
+  .travel h2 {
+    font-size: 84%;
+    width: 100%;
+  }
+
+  .travel .image {
+    margin-left: 2rem;
+  }
+
+  .travell {
+    justify-content: space-between;
+  }
+
+  .smart {
+    width: 35%;
+    margin-left: 1rem;
+  }
+
+  .smart h2 {
+    margin-left: 0.4rem;
+    font-size: 80%;
+    width: 100%;
+  }
+
+  .imageo {
+    margin-right: 2rem;
+  }
+
+  .suv {
+    display: none;
+  }
+  .line1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .hero-section {
+    justify-content: space-between;
+  }
+
+  .dots {
+    right: -24rem;
+  }
+
+  .ride-flex {
+    gap: 3rem;
+  }
+
+  .roe {
+    top: 18%;
+    right: 2%;
+    position: absolute;
+    width: fit-content;
+  }
+
+  .two {
+    position: relative;
+    right: 18rem;
+    top: 4rem;
+  }
+
+  .three {
+    position: relative;
+    left: 19rem;
+    top: 1rem;
+  }
+
+  .four {
+    position: relative;
+    left: 2rem;
+    top: 6rem;
+  }
+
+  .travel {
+    margin-top: 8%;
+
+    justify-content: space-between;
+
+    padding-bottom: 4rem;
+  }
+
+  .travel .words {
+    width: 38%;
+    margin-left: -12rem;
+  }
+
+  .travel h2 {
+    font-size: 100%;
+    width: 100%;
+  }
+
+  .travel .image {
+    margin-left: 2rem;
+  }
+
+  .travell {
+    justify-content: space-between;
+  }
+
+  .smart {
+    width: 35%;
+    margin-left: 1rem;
+  }
+
+  .smart h2 {
+    margin-left: 0.2rem;
+    font-size: 100%;
+    width: 100%;
+  }
+
+  .smart p {
+    margin-left: 1rem;
+  }
+
+  .imageo {
+    margin-right: 2rem;
+  }
+
+  .suv {
+    display: none;
+  }
+  .line1 {
+    display: none;
+  }
+
+  .smart img,
+  .words img {
+    display: none;
+  }
+
+  .ride-flex {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main {
+    padding-top: 1em;
+  }
+  .hero-section {
+    justify-content: space-between;
+    gap: 2em;
+  }
+
+  .affordable h1 {
+    margin-bottom: 0.4em;
+    font-size: 1.8em;
+  }
+
+  .affordable img {
+    display: none;
+  }
+
+  .app img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .dots {
+    right: -10rem;
+    z-index: -9999;
+  }
+
+  .one img {
+    top: 2%;
+    width: 80%;
+    right: 2%;
+    position: absolute;
+  }
+
+  .two img {
+    width: 80%;
+    position: relative;
+    left: 14em;
+    top: -4rem;
+  }
+
+  .three img {
+    width: 80%;
+    position: relative;
+    right: 40em;
+    left: 0;
+  }
+
+  .four img {
+    width: 80%;
+    position: relative;
+    top: -10em;
+    left: 11em;
+  }
+
+  .travel {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    gap: 1em;
+    margin: 0 2em;
+  }
+
+  .travel .words {
+    width: 100%;
+    margin: 0 2em;
+    text-align: center;
+  }
+
+  .travel h2 {
+    font-size: 1.6em;
+    width: 100%;
+  }
+
+  .travel .image {
+    margin-left: 2rem;
+  }
+
+  .travell {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    gap: 1em;
+    padding: 0 2em;
+  }
+
+  .smart {
+    width: 100%;
+    margin: 0 2em;
+    text-align: center;
+  }
+
+  .smart h2 {
+    margin-left: 0.2rem;
+    font-size: 1.6em;
+    width: 100%;
+  }
+
+  .smart p {
+    margin-left: 1rem;
+  }
+
+  .imageo {
+    margin-right: 2rem;
+  }
+
+  .suv {
+    display: none;
+  }
+  .line1 {
+    display: none;
+  }
+
+  .smart img,
+  .words img {
+    display: none;
+  }
+
+  .ride-flex {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    padding-top: 1em;
+  }
+  .hero-section {
+    padding-bottom: 1em;
+    gap: 2em;
+  }
+
+  .affordable h1 {
+    margin-bottom: 0.4em;
+    font-size: 2em;
+  }
+
+  .affordable img {
+    display: none;
+  }
+
+  .app img {
+    display: none;
+  }
+
+  .dots {
+    right: -10rem;
+    z-index: -9999;
+  }
+
+  .roe img {
+    display: none;
+  }
+
+  .travel {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    gap: 1em;
+    margin: 0 2em;
+  }
+
+  .travel .words {
+    width: 100%;
+    margin: 0 2em;
+    text-align: center;
+  }
+
+  .travel h2 {
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .travel .image,
+  .imageo {
+    margin: 0 auto;
+    margin-left: 1.4em;
+  }
+
+  .travel .image img {
+    width: 90%;
+    
+  }
+
+  .travell {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    gap: 1em;
+    padding: 0 2em;
+  }
+
+  .smart {
+    width: 100%;
+    margin: 0 2em;
+    text-align: center;
+  }
+
+  .smart h2 {
+    margin-left: 0.2rem;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .smart p {
+    margin-left: 1rem;
+  }
+
+  .imageo img {
+    width: 95%;
+  }
+
+  .suv {
+    display: none;
+  }
+  .line1 {
+    display: none;
+  }
+
+  .smart img,
+  .words img {
+    display: none;
+  }
+
+  .ride-flex {
+    flex-wrap: wrap;
+    gap: 1.8em;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+}
